@@ -3,6 +3,8 @@ Documentations :
 - [Grappe de calcul Béluga](https://docs.computecanada.ca/wiki/B%C3%A9luga)
 - [Exécution des tâches](https://docs.computecanada.ca/wiki/Running_jobs/fr#T.C3.A2che_GPU_.28avec_processeur_graphique.29)
 - [Exécution des tâches GPU](https://docs.computecanada.ca/wiki/Using_GPUs_with_Slurm/fr)
+- [Transfert de données](https://docs.computecanada.ca/wiki/Transferring_data/fr)
+- [Transfert de gros fichiers](https://docs.computecanada.ca/wiki/Globus/fr)
 
 
 ## 1. Téléchargement des *datasets* localement
