@@ -71,7 +71,7 @@ a. Connexion au nœud de connexion de la grappe de calcul Béluga
 ssh username@beluga.computecanada.ca
 ```
 
-b. Demande d'un nœud de calcul ayant un GPU, 5 coeurs CPU et 16 Go de ram pour une durée de une heure
+b. Demande d'un nœud de calcul ayant un GPU, 5 coeurs CPU et 16 Go de ram pour une durée d'une heure
 ```console
 salloc --gres=gpu:1 --cpus-per-task=5 --mem=16G --time=0-01:00
 ```
