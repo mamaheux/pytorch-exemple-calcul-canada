@@ -1,10 +1,10 @@
 # Pytorch - Exemple d'exécution sur Calcul Canada
 Documentations :
-- [Grappe de calcul Béluga](https://docs.computecanada.ca/wiki/B%C3%A9luga)
-- [Exécution des tâches](https://docs.computecanada.ca/wiki/Running_jobs/fr#T.C3.A2che_GPU_.28avec_processeur_graphique.29)
-- [Exécution des tâches GPU](https://docs.computecanada.ca/wiki/Using_GPUs_with_Slurm/fr)
-- [Transfert de données](https://docs.computecanada.ca/wiki/Transferring_data/fr)
-- [Transfert de gros fichiers](https://docs.computecanada.ca/wiki/Globus/fr)
+- [Grappe de calcul Béluga](https://docs.alliancecan.ca/wiki/B%c3%a9luga)
+- [Exécution des tâches](https://docs.alliancecan.ca/wiki/Running_jobs/fr#T.C3.A2che_GPU_.28avec_processeur_graphique.29)
+- [Exécution des tâches GPU](https://docs.alliancecan.ca/wiki/Using_GPUs_with_Slurm/fr)
+- [Transfert de données](https://docs.alliancecan.ca/wiki/Transferring_data/fr)
+- [Transfert de gros fichiers](https://docs.alliancecan.ca/wiki/Globus/fr)
 
 
 ## 1. Téléchargement des *datasets* localement
@@ -89,10 +89,9 @@ cp -r ~/pytorch-exemple-calcul-canada .
 e. Création d'un environnement virtuel et installation des dépendances
 ```console
 cd $SLURM_TMPDIR/
-module load python/3.6 cuda cudnn
+module load python/3.10 cuda cudnn
 virtualenv --no-download env
 source env/bin/activate
-pip install --no-index torch_gpu
 pip install --no-index -r pytorch-exemple-calcul-canada/code/requirements.txt
 ```
 
@@ -146,10 +145,9 @@ cp -r ~/pytorch-exemple-calcul-canada .
 
 # Création de l'environnement virtuel
 cd $SLURM_TMPDIR/
-module load python/3.6 cuda cudnn
+module load python/3.10 cuda cudnn
 virtualenv --no-download env
 source env/bin/activate
-pip install --no-index torch_gpu
 pip install --no-index -r pytorch-exemple-calcul-canada/code/requirements.txt
 
 # Exécution de l'entraînement
