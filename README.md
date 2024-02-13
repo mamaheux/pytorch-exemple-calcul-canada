@@ -165,11 +165,11 @@ vim start_training.sh
 Copiez le contenu suivant :
 ```console
 sbatch train.sh --output_path ~/pytorch-exemple-calcul-canada/output/cifar10/vanilla_cnn --dataset cifar10 --model vanilla_cnn
-sbatch train.sh --output_path ~/pytorch-exemple-calcul-canada/output/cifar100/vanilla_cnn --dataset cifar10 --model vanilla_cnn
+sbatch train.sh --output_path ~/pytorch-exemple-calcul-canada/output/cifar100/vanilla_cnn --dataset cifar100 --model vanilla_cnn
 sbatch train.sh --output_path ~/pytorch-exemple-calcul-canada/output/svhn/vanilla_cnn --dataset svhn --model vanilla_cnn
 
 sbatch train.sh --output_path ~/pytorch-exemple-calcul-canada/output/cifar10/dense_block_cnn --dataset cifar10 --model dense_block_cnn
-sbatch train.sh --output_path ~/pytorch-exemple-calcul-canada/output/cifar100/dense_block_cnn --dataset cifar10 --model dense_block_cnn
+sbatch train.sh --output_path ~/pytorch-exemple-calcul-canada/output/cifar100/dense_block_cnn --dataset cifar100 --model dense_block_cnn
 sbatch train.sh --output_path ~/pytorch-exemple-calcul-canada/output/svhn/dense_block_cnn --dataset svhn --model dense_block_cnn
 ```
 
